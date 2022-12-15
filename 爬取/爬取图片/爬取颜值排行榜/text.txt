@@ -1,0 +1,23 @@
+利用python打造颜值，用百度ai人脸识别
+
+人脸识别网址：https://ai.baidu.com/docs#/Face-Detect-V3/top
+
+我主良缘网址：http://www.7799520.com/jiaoyou.html
+
+步骤：
+    一、爬取人物信息
+        1.源代码HTML
+        2.json字典,键值对格式化
+        3.颜值爬取（人脸识别）
+
+import urllib, urllib2, sys
+import ssl
+
+# client_id 为官网获取的AK， client_secret 为官网获取的SK
+host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=【官网获取的AK】&client_secret=【官网获取的SK】'
+request = urllib2.Request(host)
+request.add_header('Content-Type', 'application/json; charset=UTF-8')
+response = urllib2.urlopen(request)
+content = response.read()
+if (content):
+    print(content)

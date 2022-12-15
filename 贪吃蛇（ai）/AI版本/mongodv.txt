@@ -1,0 +1,5 @@
+ip :210.82.53.195
+
+mongodb+srv://rx_ted:<password>@cluster0-0ljad.mongodb.net/test
+
+210.82.53.196

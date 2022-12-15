@@ -1,0 +1,50 @@
+{
+    "default":{
+        "height":200,
+        "width":200,
+        "language":"ZH"
+    },
+
+    
+    "interface_name": [
+        {
+            
+        "ZH": [
+            {
+                "status": "状态",
+                "select_file": "选择文件",
+                "select_folder": "选择文件夹",
+                "set_value_zoom": "设置缩放值",
+                "set_value_height": "设置高度",
+                "set_value_width": "设置宽度",
+                "value_zoom": "10",
+                "value_width": " ",
+                "value_height": " ",
+                "go_task_pushButton": "处理",
+                "cls_pushButton": "清空",
+                "setWindowTitle": "图片缩放",
+                "setlanguage":"语言"
+
+            }
+        ],
+        "English":
+            [{
+                "status": "status",
+                "select_file": "select file",
+                "select_folder": "select folder",
+                "set_value_zoom": "set value of the zoom",
+                "set_value_height": "set height",
+                "set_value_width": "set width",
+                "value_zoom": "10",
+                "value_width": " ",
+                "value_height": " ",
+                "go_task_pushButton": "go the task",
+                "cls_pushButton": "cls",
+                "setWindowTitle": "图片缩放",
+                "setlanguage":"languge"
+
+
+            }]
+    }
+    ]
+}
